@@ -1,16 +1,12 @@
 'use strict';
 
 {
-  // let log = function(){
-  //   alert('2seconds');
-  // }
-  // setTimeout(log,2000);
+  // let fruits = ["リンゴ", "メロン", "バナナ"];
+  // alert(fruits[1]);
 
-  // setTimeout(function(){
-  //   alert('2seconds');
-  // },2000);
+  const fruits = ["リンゴ", "メロン", "バナナ",];
+  // alert(fruits[1]);
+  alert(fruits[0]);
+  alert(fruits[2]);
 
-  setTimeout(function(){
-    alert('３秒たったよ');
-  },3000);
 }
