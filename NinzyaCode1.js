@@ -1,8 +1,13 @@
 'use strict';
 
 {
-  const w_width = window.innerWidth;
-  alert(w_width);
-  const w_height = window.innerHeight;
-  alert(w_height);
+  // let num1 = 5;
+  // let num2 = 8;
+  // alert(num1 + num2);
+
+  let num1 = 2;
+  let num2 = 6;
+  alert(num1 * num2);
+  alert(num1 - num2);
+  alert(num1 / num2);
 }
