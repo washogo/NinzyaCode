@@ -1,13 +1,16 @@
 'use strict';
 
 {
-  // let num1 = 5;
-  // let num2 = 8;
-  // alert(num1 + num2);
+  // let text1 = "リンゴ・バナナ";
+  // let text2 = "レモン";
+  // let fruits = (text1 + text2).replace("バナナ","");
+  
+  // alert(fruits);
 
-  let num1 = 2;
-  let num2 = 6;
-  alert(num1 * num2);
-  alert(num1 - num2);
-  alert(num1 / num2);
+  let text1 = "リンゴ・バナナ・ミカン";
+  let text2 = "レモン";
+  let fruits = (text1 + text2).replace("バナナ","梨");
+  let more_fruits = (fruits).replace('レモン','・レモン')
+  
+  alert(more_fruits);
 }
