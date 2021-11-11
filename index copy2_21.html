@@ -5,12 +5,18 @@
     <title>Ninzya Code Customizer</title>
     <meta name="viewport" content="width=device-width">
     <style>
-
+      .blue{
+      color:blue;
+      }
+      #red{
+      color:red;
+      }
     </style>
   </head>
   <body>
-    <div class="val">忍者CODE</div>
-    <input type="text">
+    <div data-delete="id">idを削除</div>
+    <div data-delete="class">classを削除</div> 
+    <div id="red" class="blue" data-delete-target>忍者CODE</div>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
